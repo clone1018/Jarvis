@@ -1,0 +1,33 @@
+{
+  "name": "jarvis",
+  "preferGlobal": false,
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "contributors": [
+    {
+      "name": "Luke Strickland",
+      "email": "luke@axxim.net"
+    }
+  ],
+  "scripts": {
+    "start": "node ./bin/Jarvis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jarvis/Jarvis.git"
+  },
+  "dependencies": {
+    "irc": ">= 0.3.5",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-typescript": "~0.2.4",
+    "grunt-contrib-copy": "~0.4.1"
+  },
+  "license": "BSD-3",
+  "engines": {
+    "node": ">=0.8"
+  }
+}

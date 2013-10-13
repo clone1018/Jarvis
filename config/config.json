@@ -1,0 +1,14 @@
+{
+
+    "networks": [{
+        "host": "irc.esper.net",
+        "port": 6667,
+        "password": "",
+        "sasl": false,
+        "nick": "clonebot",
+        "username": "clonebot",
+        "realname": "clonebot",
+        "channels": ["##clonebot"]
+    }],
+    "plugins": []
+}
